@@ -44,17 +44,55 @@ margin-left: 24px;
 
 
 nav ul li{
-    display: inline-block;
+   
     padding: 16px;
     margin-right: 24px;
     font-size:25px;
     margin-top: 0;
+    text-decoration: none;
     float: right;
     text-decoration: none;
+    list-style: none;
 
 }
 
 nav ul a{
     text-decoration: none;
     color:#4a4a4a;
+}
+
+/* Learn something new */
+.container{
+    display: flex;
+    width: 100%;
+}
+
+
+.banner{
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.text{
+    text-align: center;
+    margin-top: 10%;
+    max-width: 40%;
+}
+
+button {
+    color: #F4F4F4;
+  background-color: #505050;
+  width: 100%;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 2rem;
+  width: 80%;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    
 }
